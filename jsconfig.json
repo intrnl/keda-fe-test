@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"paths": {
+			"@/*": [
+				"./src/*"
+			]
+		},
+		"lib": ["esnext", "dom", "dom.iterable"]
+	}
+}
